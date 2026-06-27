@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IRCTC Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="booking-box">
+
+    <h2>Login</h2>
+
+    <input type="text" placeholder="Username" id="username">
+
+    <input type="password" placeholder="Password" id="password">
+
+    <button onclick="login()">
+        Login
+    </button>
+
+</div>
+
+<script>
+function login(){
+
+    let user=document.getElementById("username").value;
+    let pass=document.getElementById("password").value;
+
+    if(user!=="" && pass!==""){
+        window.location.href="index.html";
+    }
+    else{
+        alert("Enter Username and Password");
+    }
+}
+</script>
+
+</body>
+</html>
