@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f4f4;
+}
+
+nav{
+    background:#003366;
+    color:white;
+    padding:15px;
+    font-size:24px;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+button{
+    background:#ff6600;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    cursor:pointer;
+}
+
+.train{
+    background:#e9f3ff;
+    padding:10px;
+    margin-top:10px;
+    border-radius:5px;
+}
